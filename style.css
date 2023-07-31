@@ -1,0 +1,52 @@
+*{
+    text-align: center;
+    background-color: #78c2f325;
+}
+body{
+    margin: 0px;
+}
+div{
+  margin: 10px 0px 10px 0px;
+}
+h2{
+    background-color: #cd668883;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 0 0 0 10rem ;
+    /* margin-left: 10rem; */
+    /* margin-right: 10rem; */
+    font-family: 'Tiro Devanagari Hindi', serif;
+    font-family: 'Yatra One', cursive;
+}
+.header{
+    background-color: #CD6688;
+    margin: 23.450px 0 0 0px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 100px ;
+    border: thick double #cec932;
+    /* text-align: center; */
+}
+h1{
+    font-size: 35px;
+    margin-bottom: 0px;
+    
+}
+p{
+    font-weight: 00;
+    font-size: 28px;
+    margin-top: 0px;
+    padding-bottom: 4px;
+    font-family: 'Tiro Devanagari Hindi', serif;
+
+}
+@media (max-width:806px)  {
+    .header{
+        display: block;
+        margin: 0px;
+        /* background-color: #de0902; */
+    }
+    h2{
+        margin: 0px;
+    }
+}
